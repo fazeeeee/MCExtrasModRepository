@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mcextras",
+  "version": "${version}",
+
+  "name": "MCExtras",
+  "description": "MCExtras adds a vast majority of items recipes mobs and etc.",
+  "authors": [
+    "fazeeeee"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fazeeeee.mcextras.MCExtras"
+    ]
+  },
+  "mixins": [
+    "mcextras.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
